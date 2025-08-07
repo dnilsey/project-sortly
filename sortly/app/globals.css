@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import "tailwindcss";
+@theme {
+  --font-script: Roboto Mono, monospace;
+  --color-primary: #819A91;
+  --color-secondary: #A7C1A8;
+  --color-tertiary: #D1D8BE;
+  --color-accent: #EEEFE0;
+  --color-primary-font-color: #1E2B28;
+}
