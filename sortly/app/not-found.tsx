@@ -16,13 +16,13 @@ export default function NotFoundPage() {
         height={300}
         className=""
       />
-      <Link href="https://www.flaticon.com/free-icons/404-error" target="_blank" title="404 error icons" className="underline text-sm text-primary-font-color italic">
+      <Link href="https://www.flaticon.com/free-icons/404-error" target="_blank" title="404 error icons" className="underline text-sm text-dark-gray italic">
         404 error icons created by Prosymbols Premium - Flaticon
       </Link>
-      <h1 className="text-2xl font-bold text-primary-font-color mb-2 mt-16">
+      <h1 className="text-2xl font-bold text-dark-gray mb-2 mt-16">
         Oops! Page Not Found.
       </h1>
-      <p className="text-sm text-primary-font-color mb-4">
+      <p className="text-sm text-dark-gray mb-4">
         The page you are looking for does not exist or has been moved.
       </p>
       <button
