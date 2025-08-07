@@ -24,7 +24,8 @@ export default function Login() {
 
   return (
     <div className="flex flex-col items-center justify-start w-full min-h-screen bg-accent px-6 py-20">
-      <div className='max-w-sm mx-auto px-6 py-10 rounded-lg shadow-lg bg-white h-auto w-full'>
+      <div className='max-w-sm mx-auto px-6 py-8 rounded-lg shadow-lg bg-white h-auto w-full'>
+        <div className='text-4xl font-bold mb-8 text-primary text-center w-full'>LOGIN</div>
         <form
           onSubmit={handleSubmit(onSubmit)}
           className="space-y-4"
@@ -32,9 +33,10 @@ export default function Login() {
           <GenericInputField
             isLoading={isSubmitting}
             disabled={isSubmitting}
-            label="Login ID"
-            error={errors?.login_id}
-            {...register('login_id')}
+            label="Email"
+            type='email'
+            error={errors?.email}
+            {...register('email')}
           />
           <GenericPasswordField
             isLoading={isSubmitting}
