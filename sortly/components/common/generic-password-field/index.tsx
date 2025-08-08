@@ -1,20 +1,20 @@
 import Image from "next/image";
 import { useState } from "react";
 
-type FormInputWithIconProps = {
+type IProps = {
   label: string;
   error?: { message?: string };
   isLoading?: boolean;
   disabled?: boolean;
 } & React.InputHTMLAttributes<HTMLInputElement>;
 
-export default function FormInputWithIcon({
+export default function GenericPasswordField({
   label,
   error,
   isLoading,
   disabled,
   ...rest
-}: FormInputWithIconProps) {
+}: IProps) {
   const [showPassword, setShowPassword] = useState(false);
   return (
     <div>

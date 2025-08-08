@@ -59,7 +59,7 @@ export default function Login() {
 
           <div className='text-center font-normal text-md text-dark-gray mt-4'>
             Don&apos;t have an account?
-            <Link href="/register" className='pl-2 underline font-normal text-primary text-md'>
+            <Link href="/signup" className='pl-2 underline font-normal text-primary text-md'>
               Sign up
             </Link>
           </div>
