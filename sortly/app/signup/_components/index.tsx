@@ -96,6 +96,7 @@ export default function Signup() {
             {...register('confirm_password')}
           />
 
+          <div className="mt-6" />
           <GenericSubmitButton 
             isLoading={isSubmitting} 
             label="SIGNUP" 
